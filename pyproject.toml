@@ -5,6 +5,17 @@ version = "0.1.0"
 description = "Simple mechanism to rollup API symbols to a Python module from its submodules"
 authors = ["mm21 <mm21.apps@gmail.com>"]
 readme = "README.md"
+homepage = "https://github.com/mm21/pyrollup"
+classifiers = [
+  # Get the list of trove classifiers here: https://pypi.org/classifiers/
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Operating System :: OS Independent",
+  "Typing :: Typed",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+  "Development Status :: 3 - Alpha",
+  "Natural Language :: English",
+  "License :: OSI Approved :: MIT License"
+]
 
 [tool.poetry.dependencies]
 python = "^3.10"
