@@ -13,10 +13,10 @@ from .submodule_b import ClassB
 from .submodule_c import ClassC
 
 __all__ = [
-    ClassA,
-    ClassA2
-    ClassB,
-    ClassC,
+    "ClassA",
+    "ClassA2",
+    "ClassB",
+    "ClassC",
 ]
 ```
 
@@ -37,16 +37,16 @@ from .submodule_b import ClassB
 from .submodule_c import ClassC
 
 __all__ = [
-    ClassA,
-    ClassA2,
-    ClassA1_1,
-    ClassA1_2,
-    ClassA2_1,
-    ClassA2_2,
-    ClassA3_1,
-    ClassA3_2,
-    ClassB,
-    ClassC,
+    "ClassA",
+    "ClassA2",
+    "ClassA1_1",
+    "ClassA1_2",
+    "ClassA2_1",
+    "ClassA2_2",
+    "ClassA3_1",
+    "ClassA3_2",
+    "ClassB",
+    "ClassC",
 ]
 ```
 
